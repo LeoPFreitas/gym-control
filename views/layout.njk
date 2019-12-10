@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="Leonardo Freitas">
+
+        <link rel="stylesheet" href="/style.css">
+
+        {% block head %}
+            <title>Gym manager</title>
+        {% endblock %}
+
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <div class="links">
+                    <a href="/" class="active">Instructors</a>
+                    <a href="/members">Members</a>
+
+                </div>
+            </nav>
+        </header>
+
+        {% block content %}{% endblock %}
+
+        <footer>
+            <p>Todos os direitos reservados, receitas gym Manager</p>
+        </footer>
+
+    </body>
+</html>
