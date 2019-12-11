@@ -73,6 +73,12 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.4);
+
+    /* Animation */
+    /* animation: up 200ms ease-in-out; */
+    animation-name: up;
+    animation-duration: 300ms;
+    animation-timing-function: ease-in-out;
 }
 
 .card .details{
@@ -80,4 +86,13 @@ header {
     height: 100%;
 }
 
-
+/* ANIMATION */
+@keyframes up {
+    0%{
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
