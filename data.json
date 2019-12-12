@@ -1,0 +1,13 @@
+{
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "http://google.com",
+      "name": "Leonardo Pereira de Freitas",
+      "birth": 1576454400000,
+      "gender": "M",
+      "services": "lalalala, lalalala, lalalala",
+      "created_at": 1576178249871
+    }
+  ]
+}
