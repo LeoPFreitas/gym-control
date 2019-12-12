@@ -4,6 +4,9 @@ const routes = require('./routes')
 
 const server = express()
 
+//Faz funcionar o req.body
+server.use(express.urlencoded({ extended: true }))
+
 server.use(express.static('public'))
 // para o express poder utilizar o routes
 server.use(routes) // o use é um middleware
