@@ -148,7 +148,11 @@ header {
 /* PAGINA CREATE */
 /* FORM */
 
-input {
+select {
+    background: none;
+}
+
+input, select {
     width: 100%;
     outline: none;
     color: #555;
