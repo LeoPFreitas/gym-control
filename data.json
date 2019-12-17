@@ -1,22 +1,36 @@
 {
-  "members": [],
-  "instructors": [
+  "members": [
     {
       "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1576281009172-f78b3a1dc34a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "name": "leo 2",
+      "email": "leonardo.cadu@hotmail.com",
+      "birth": 1576108800000,
+      "gender": "M",
+      "blood": "A+",
+      "weight": "212",
+      "height": "2121"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1576281009172-f78b3a1dc34a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "name": "leo 2",
+      "email": "leonardo.cadu@hotmail.com",
+      "birth": 1576540800000,
+      "gender": "M",
+      "blood": "B+",
+      "weight": "123",
+      "height": "123"
+    }
+  ],
+  "instructors": [
+    {
+      "id": 2,
       "avatar_url": "https://images.unsplash.com/photo-1576281009172-f78b3a1dc34a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
       "name": "Leonardo f",
       "birth": 1576454400000,
       "gender": "M",
       "services": "lalalala,lalalala,lalalala",
-      "created_at": 1576178249871
-    },
-    {
-      "id": 2,
-      "avatar_url": "https://images.unsplash.com/photo-1576281009172-f78b3a1dc34a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-      "name": "Leonardo freitas",
-      "birth": 1576454400000,
-      "gender": "M",
-      "services": "lalalala, lalalala",
       "created_at": 1576178249871
     }
   ]
